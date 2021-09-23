@@ -1,0 +1,24 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		// TODO Esbozo de método generado automáticamente
+		Scanner teclado = new Scanner(System.in);
+		int[] numeros=new int[7];
+		
+		
+		for(int i=0;i<7;i++) {
+			System.out.println("Introduce el siguiente numero: ");
+			numeros[i]=teclado.nextInt();
+		}
+		
+		for(int i=numeros.length;i>0;i--) {
+			System.out.println(numeros[i-1]);
+		}
+
+	}
+
+}
